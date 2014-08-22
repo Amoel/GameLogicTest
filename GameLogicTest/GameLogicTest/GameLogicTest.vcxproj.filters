@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Pathfinding">
+      <UniqueIdentifier>{299ac943-76b2-4af4-9b7f-cccf3178c3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Pathfinding">
+      <UniqueIdentifier>{2b9260fe-2d03-4883-86c3-6e22d9d3952c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Entities">
+      <UniqueIdentifier>{311ac79a-a707-43b7-a9b9-e336b02ee38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Entities">
+      <UniqueIdentifier>{3a6ac922-e949-4fe4-926c-bfd68e41df81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Misc">
+      <UniqueIdentifier>{0ce176d4-1f91-4d8b-bc50-86ef495af53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Misc">
+      <UniqueIdentifier>{c3fe05eb-a50b-44b1-ba68-8f18053e55ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\World">
+      <UniqueIdentifier>{6a5253d2-c40c-4bee-98f3-fdf572b3e0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\World">
+      <UniqueIdentifier>{4ab6e542-8293-4c6e-9c75-e73b25b61728}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarNode.cpp">
+      <Filter>Quelldateien\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarPathfinding.cpp">
+      <Filter>Quelldateien\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Quelldateien\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Quelldateien\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Quelldateien\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Quelldateien\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Quelldateien\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AStarNode.h">
+      <Filter>Headerdateien\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarPathfinder.h">
+      <Filter>Headerdateien\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headerdateien\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Headerdateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Headerdateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>Headerdateien\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Headerdateien\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Headerdateien\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameLogicTest.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

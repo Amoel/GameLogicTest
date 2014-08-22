@@ -1,0 +1,62 @@
+﻿Der Buildvorgang wurde am 22.08.2014 05:21:17 gestartet.
+     1>Projekt "C:\Users\Max Giller\Documents\Visual Studio 2013\Projects\GameLogicTest\GameLogicTest\GameLogicTest.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Animation.cpp AStarNode.cpp AStarPathfinding.cpp Enemy.cpp Entity.cpp Level.cpp Main.cpp Player.cpp
+         Animation.cpp
+         AStarNode.cpp
+         AStarPathfinding.cpp
+         Enemy.cpp
+         Entity.cpp
+         Level.cpp
+         Main.cpp
+         Player.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\GameLogicTest.res" GameLogicTest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Max Giller\Documents\Visual Studio 2013\Projects\GameLogicTest\Release\GameLogicTest.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Max Giller\Documents\Visual Studio 2013\Projects\GameLogicTest\Release\GameLogicTest.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Max Giller\Documents\Visual Studio 2013\Projects\GameLogicTest\Release\GameLogicTest.lib" /MACHINE:X86 /SAFESEH Release\GameLogicTest.res
+         Release\Animation.obj
+         Release\AStarNode.obj
+         Release\AStarPathfinding.obj
+         Release\Enemy.obj
+         Release\Entity.obj
+         Release\Level.obj
+         Release\Main.obj
+         Release\Player.obj
+     1>Animation.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_draw_bitmap_region".
+     1>Animation.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_get_bitmap_width".
+     1>Animation.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_get_bitmap_height".
+     1>Animation.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_destroy_bitmap".
+     1>Enemy.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_load_bitmap".
+     1>Level.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_map_rgb".
+     1>Level.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_draw_bitmap".
+     1>Level.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_draw_text".
+     1>Level.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_load_font".
+     1>Level.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_destroy_font".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_flip_display".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_set_window_title".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_get_mouse_event_source".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_clear_to_color".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_register_event_source".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_wait_for_event".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_destroy_timer".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_start_timer".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_install_mouse".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_create_event_queue".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_create_display".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_create_timer".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_init_ttf_addon".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_install_system".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_get_display_event_source".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_get_timer_event_source".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_init_image_addon".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_destroy_display".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_stop_timer".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_get_time".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_show_native_message_box".
+     1>Main.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp__al_init_font_addon".
+     1>C:\Users\Max Giller\Documents\Visual Studio 2013\Projects\GameLogicTest\Release\GameLogicTest.exe : fatal error LNK1120: 32 nicht aufgelöste Externe
+     1>Die Erstellung des Projekts "C:\Users\Max Giller\Documents\Visual Studio 2013\Projects\GameLogicTest\GameLogicTest\GameLogicTest.vcxproj" ist abgeschlossen, Rebuild Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:04.67
